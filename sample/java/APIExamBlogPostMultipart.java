@@ -9,7 +9,7 @@ public class APIExamBlogPostMultipart {
         String header = "Bearer " + token; // Bearer 다음에 공백 추가
         try {
             // api url 설정
-            String apiURL = "https://openapi.naver.com/blog/writePost.json";
+            String apiURL = "https://openapi.naver.com/blritePost.json";
             MultipartUtil mu = new MultipartUtil(apiURL);
             // 접큰 토큰 헤더 추가
             mu.addHeaderField("Authorization", header);
